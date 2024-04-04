@@ -26,7 +26,7 @@ export default {
 			buttons: [
 				{ label: 'Send cast', action: 'post' },
 				{ label: 'Connect to Warpcast', action: "post" },
-				{ label: 'Learn more', action: "link", target: "https://pinata.cloud/blog"}
+				{ label: 'Learn more', action: "link", target: "https://www.pinata.cloud/blog/how-to-send-casts-in-a-farcaster-frame"}
 			],
 			cid: "Qmbs3NXdzcqopAuAkj9jCn271X9aNbMcVQjeQEARdsGhaQ",
 		});

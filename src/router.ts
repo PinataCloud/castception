@@ -62,7 +62,7 @@ router.post('/api/castception', async (request, env) => {
 			buttons: [
 				{ label: 'Check approval status', action: 'post' },
 				{ label: 'Approve in Warpcast', action: "link", target: `https://castception.pinatadrops.com/approve?redirectUrl=${data.data.deep_link_url}` }, 
-				{ label: 'Learn more', action: "link", target: "https://pinata.cloud/blog"}
+				{ label: 'Learn more', action: "link", target: "https://www.pinata.cloud/blog/how-to-send-casts-in-a-farcaster-frame"}
 			],
 			state: { token: data.data.token },
 			cid: "Qmcp2GUFfJfNxZu9T5H7CFBeVKLzv4uSqwnBPhj8ANFPoE",
@@ -130,7 +130,7 @@ router.post('/api/castception', async (request, env) => {
 			aspect_ratio: "1:1",
 			buttons: [
 				{ label: 'View cast', action: 'link', target: warpcastUrl },
-				{ label: 'Learn more', action: "link", target: "https://pinata.cloud/blog"}
+				{ label: 'Learn more', action: "link", target: "https://www.pinata.cloud/blog/how-to-send-casts-in-a-farcaster-frame"}
 			],
 			cid: "QmUq5kHXuZXkvUohVLTuzBw7kKT8RWMVV16X78mpFDyQLi",
 		});
@@ -152,7 +152,7 @@ router.post('/api/castception', async (request, env) => {
 			buttons: [
 				{ label: 'Send cast', action: 'post' },
 				{ label: 'Connect with Warpcast', action: "post" },
-				{ label: 'Learn more', action: "link", target: "https://pinata.cloud/blog"}
+				{ label: 'Learn more', action: "link", target: "https://www.pinata.cloud/blog/how-to-send-casts-in-a-farcaster-frame"}
 			],
 			cid: "QmNMTDjXisTyWERGCipzg1ieViLgbdnji8FYjkNxpwckVz",
 		});
@@ -210,7 +210,7 @@ router.post('/api/castception/status', async (request, env) => {
 				aspect_ratio: "1:1",
 				buttons: [
 					{ label: 'Send cast', action: 'post' },
-					{ label: 'Learn more', action: "link", target: "https://pinata.cloud/blog"}
+					{ label: 'Learn more', action: "link", target: "https://www.pinata.cloud/blog/how-to-send-casts-in-a-farcaster-frame"}
 				],
 				cid: "QmNMTDjXisTyWERGCipzg1ieViLgbdnji8FYjkNxpwckVz",
 			});
